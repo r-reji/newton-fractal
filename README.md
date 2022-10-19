@@ -8,7 +8,7 @@ This is the main file for this project. It will generate a graphical representat
 
 You can producing your own Newton fractals by adding the necessary code to the main method of this file - an example has been shown below.
 
-Note: the fractal generation takes a boolean operator *colorIterations* which, when passed true, will set the colours of the fractal as a function of convergence time. ie. the longer a point in your domain takes to converge to a root, the darker the colour of the point will be. See below for examples of both image types.
+Note: the fractal generation takes a boolean operator `colorIterations` which, when passed `true`, will set the colours of the fractal as a function of convergence time. ie. the longer a point in your domain takes to converge to a root, the darker the colour of the point will be. See below for examples of both image types.
 
 ![fractal-light](https://user-images.githubusercontent.com/112977394/196665704-14e80b3b-79a9-4104-9b57-28e05389a5ef.png)
 ![fractal-dark](https://user-images.githubusercontent.com/112977394/196665783-7d45a913-b099-450b-9712-83474c0f3ebe.png)
