@@ -10,8 +10,11 @@ You can producing your own Newton fractals by adding the necessary code to the m
 
 Note: the fractal generation takes a boolean operator *colorIterations* which, when passed true, will set the colours of the fractal as a function of convergence time. ie. the longer a point in your domain takes to converge to a root, the darker the colour of the point will be. See below for examples of both image types.
 
+![fractal-light](https://user-images.githubusercontent.com/112977394/196665704-14e80b3b-79a9-4104-9b57-28e05389a5ef.png)
+![fractal-dark](https://user-images.githubusercontent.com/112977394/196665783-7d45a913-b099-450b-9712-83474c0f3ebe.png)
+
 ```
-// Here is some example code which generates a Newton fractal for the function P(z) = z^4 - 1
+// Here is some example code which generates the Newton fractals for the function P(z) = z^4 - 1 shown above
 
 // Define an array of complex coeeficiants in order to initialise a complex polynomial
 Complex[] coeff = new Complex[] { new Complex(-1.0,0), new Complex(), new Complex(), new Complex(), new Complex(1,0)};
@@ -27,10 +30,6 @@ f.createFractal(true);
 f.saveFractal("fractal-dark.png");
 
 ```
-
-![fractal-light](https://user-images.githubusercontent.com/112977394/196665704-14e80b3b-79a9-4104-9b57-28e05389a5ef.png)
-![fractal-dark](https://user-images.githubusercontent.com/112977394/196665783-7d45a913-b099-450b-9712-83474c0f3ebe.png)
-
 
 The other files in this repository are necessary for the project to run. They have been tested manually and you should not need to change anything. More information below:
 
