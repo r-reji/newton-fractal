@@ -1,8 +1,8 @@
-#newtonFractal
+# newtonFractal
 
 This repository contains all the code that was wirtten for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java) in any IDE.
 
-###[NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java)
+### [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java)
 
 This is the main file for this project. It will generate a graphical representation of a Newton fractal derived from root finding algorithms on a complex polynomial. By default generated images will be saved in the same folder.
 
