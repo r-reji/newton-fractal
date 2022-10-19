@@ -33,6 +33,6 @@ f.saveFractal("fractal-dark.png");
 
 The other files in this repository are necessary for the project to run. They have been tested manually and you should not need to change anything. More information below:
 
-> - [Complex.java](https://github.com/r-reji/newtonFractal/blob/main/src/Complex.java) provides a template for a complex number object and all necessary associated methods.
-> - [Polynomial.java](https://github.com/r-reji/newtonFractal/blob/main/src/Polynomial.java) provides a template for a complex polynomial and all necessary associated methods.
-> - [Newton.java](https://github.com/r-reji/newtonFractal/blob/main/src/Newton.java) implements a Newton - Raphson root finding algorithm on a complex polynomial with a defined set of tolerances on convergence.
+ - [Complex.java](https://github.com/r-reji/newtonFractal/blob/main/src/Complex.java) provides a template for a complex number object and all necessary associated methods.
+ - [Polynomial.java](https://github.com/r-reji/newtonFractal/blob/main/src/Polynomial.java) provides a template for a complex polynomial and all necessary associated methods.
+ - [Newton.java](https://github.com/r-reji/newtonFractal/blob/main/src/Newton.java) implements a Newton - Raphson root finding algorithm on a complex polynomial with a defined set of tolerances on convergence.
