@@ -1,6 +1,6 @@
 # newtonFractal
 
-This repository contains all the code that was wirtten for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java) in any IDE.
+This repository contains all the code that was wirtten for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java).
 
 ### [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java)
 
