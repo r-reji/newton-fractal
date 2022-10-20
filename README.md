@@ -1,12 +1,12 @@
 # newtonFractal
 
-This repository contains all the code that was wirtten for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java).
+This repository contains all the code that was written for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java).
 
 ### [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java)
 
 This is the main file for this project. It will generate a graphical representation of a Newton fractal derived from root finding algorithms on a complex polynomial. By default generated images will be saved in the same folder.
 
-You can producing your own Newton fractals by adding the necessary code to the main method of this file - an example has been shown below.
+You can produce your own Newton fractals by adding the necessary code to the main method of this file - an example has been shown below.
 
 Note: the fractal generation takes a boolean operator `colorIterations` which, when passed `true`, will set the colours of the fractal as a function of convergence time. ie. the longer a point in your domain takes to converge to a root, the darker the colour of the point will be. See below for examples of both image types.
 
@@ -31,7 +31,7 @@ f.saveFractal("fractal-dark.png");
 
 ```
 
-The other files in this repository are necessary for the project to run. They have been tested manually and you should not need to change anything. More information below:
+The other files in this repository are necessary for the project to run. They have been tested manually and you should not need to change anything. More information on each file below:
 
  - [Complex.java](https://github.com/r-reji/newtonFractal/blob/main/src/Complex.java) provides a template for a complex number object and all necessary associated methods.
  - [Polynomial.java](https://github.com/r-reji/newtonFractal/blob/main/src/Polynomial.java) provides a template for a complex polynomial and all necessary associated methods.
