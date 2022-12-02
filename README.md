@@ -1,4 +1,4 @@
-# newtonFractal
+# Newton Fractal
 
 This repository contains all the code that was written for a Java programming module I took in 2018-2019. Assuming you have all the necessary dependancies installed, you should be able to run [NewtonFractal.java](https://github.com/r-reji/newtonFractal/blob/main/src/NewtonFractal.java).
 
